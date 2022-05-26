@@ -1,0 +1,20 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (GEOSTAT_Double_Checkerboard.vcxproj, GEOSTAT_MC_squareXY_v2_1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Compiling CUDA source file SST.cu...
+  
+  d:\WORK\GPU kody\Geoštatistika\Geostatistical application\Geostatistika - Double_checkerboard\SST\GEOSTAT_MCsquareXY_v2_1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_50,code=\"sm_50,compute_50\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x64" -x cu  -I"D:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\x64" -I"D:\Work\CUDA\cub-1.8.0" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"   -lineinfo  --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Release\vc141.pdb /FS /Zi  /MD " -o x64\Release\SST.cu.obj "d:\WORK\GPU kody\Geoštatistika\Geostatistical application\Geostatistika - Double_checkerboard\SST\GEOSTAT_MCsquareXY_v2_1\SST.cu" 
+d:/WORK/GPU kody/GeoÜtatistika/Geostatistical application/Geostatistika - Double_checkerboard/SST/GEOSTAT_MCsquareXY_v2_1/SST.cu(646): warning : pointless comparison of unsigned integer with zero
+d:/WORK/GPU kody/GeoÜtatistika/Geostatistical application/Geostatistika - Double_checkerboard/SST/GEOSTAT_MCsquareXY_v2_1/SST.cu(618): warning : variable "T_diluted" was set but never used
+d:/WORK/GPU kody/GeoÜtatistika/Geostatistical application/Geostatistika - Double_checkerboard/SST/GEOSTAT_MCsquareXY_v2_1/SST.cu(764): warning : variable "alpha" was declared but never referenced
+d:/WORK/GPU kody/GeoÜtatistika/Geostatistical application/Geostatistika - Double_checkerboard/SST/GEOSTAT_MCsquareXY_v2_1/SST.cu(646): warning : pointless comparison of unsigned integer with zero
+  SST.cu
+d:/WORK/GPU kody/Geoštatistika/Geostatistical application/Geostatistika - Double_checkerboard/SST/GEOSTAT_MCsquareXY_v2_1/SST.cu(603): warning C4244: 'initializing': conversion from 'double' to 'energy_t', possible loss of data
+d:/WORK/GPU kody/Geoštatistika/Geostatistical application/Geostatistika - Double_checkerboard/SST/GEOSTAT_MCsquareXY_v2_1/SST.cu(764): warning C4305: 'initializing': truncation from 'double' to 'energy_t'
+d:/WORK/GPU kody/Geoštatistika/Geostatistical application/Geostatistika - Double_checkerboard/SST/GEOSTAT_MCsquareXY_v2_1/SST.cu(862): warning C4305: 'argument': truncation from 'double' to 'energy_t'
+d:/WORK/GPU kody/Geoštatistika/Geostatistical application/Geostatistika - Double_checkerboard/SST/GEOSTAT_MCsquareXY_v2_1/SST.cu(952): warning C4305: 'argument': truncation from 'double' to 'energy_t'
+d:\work\gpu kody\geoštatistika\geostatistical application\geostatistika - double_checkerboard\sst\geostat_mcsquarexy_v2_1\sst.cu(1024): warning C4700: uninitialized local variable 'seed_fill' used
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  GEOSTAT_MCsquareXY_v2_1.vcxproj -> D:\WORK\GPU kody\Geoštatistika\Geostatistical application\Geostatistika - Double_checkerboard\SST\x64\Release\GEOSTAT_DC_block-specific_temps.exe
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\cudart*.dll" "D:\WORK\GPU kody\Geoštatistika\Geostatistical application\Geostatistika - Double_checkerboard\SST\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\cudart32_101.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\cudart64_101.dll
+          2 file(s) copied.
